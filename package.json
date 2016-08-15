@@ -1,6 +1,6 @@
 {
   "name": "shell-telnet-client",
-  "version": "1.0.0",
+  "version": "1.0.01",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
     "minimist": "^1.2.0"
   },
   "bin": {
-    "ssh-c": "index.js"
+    "sh-c": "index.js"
   }
 }

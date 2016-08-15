@@ -3,6 +3,7 @@
  * Created by Moyu on 16/8/15.
  */
 
+"use strict";
 var net = require('net')
 var argv = require('minimist')(process.argv.slice(2))
 
