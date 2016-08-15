@@ -17,6 +17,8 @@ client.setEncoding(null)
 
 client.pipe(process.stdout)
 
+process.stdin.pipe(client)
+
 client.on('close', () => {
     console.log(`${client.remoteAddress}:${client.remotePort} connection closed`)
 })
